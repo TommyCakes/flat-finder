@@ -2,6 +2,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-// body {
-//   text-align:center;
-// }
+.avatar-small {
+  width: 28px;
+}
+.avatar-medium {
+  width: 48px;
+}
+.avatar-large {
+  width: 68px;
+}
+.avatar-full {
+  width: 100%;
+}
