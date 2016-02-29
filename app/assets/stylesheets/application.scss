@@ -3,6 +3,51 @@
 @import "bootstrap";
 @import "toastr";
 
+body {
+  color: #565a5c;
+  background: #F8F8F8;
+}
+
+.container {
+  width:80%;
+}
+// Logo
+#logo {
+  // font-size:
+  margin-left:50%;
+  font-size:2em;
+  font-weight:400;
+  color:#f79b51;
+}
+@media (max-width:770px) {
+  #logo {
+    // font-size:
+    margin-left:0%;
+  }
+}
+
+.navbar-default {
+  background: white;
+}
+.navbar-right {
+  margin-right:10%;
+}
+
+// orange buttons
+.orange {
+  background:#f79b51;
+  color:white;
+  padding: 10px 25px 10px 25px;
+  border-radius: 2px;
+}
+.pink {
+  background:#cd0772;
+  color:white;
+  padding: 10px 25px 10px 25px;
+  border-radius: 2px;
+}
+
+// avatar sizes
 .avatar-small {
   width: 28px;
 }
@@ -13,5 +58,40 @@
   width: 68px;
 }
 .avatar-full {
-  width: 100%;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom:25px;
+}
+.form-control {
+  border-radius: 2px;
+  height:4rem;
+}
+
+// custom sidebar
+
+.sidebar-list {
+  padding-left: 0;
+  list-style:none;
+}
+.sidebar-item {
+  padding: 10px o;
+  font-size:16px;
+  color:#82888a;
+  border-bottom: 1px solid #CCC;
+}
+
+.sidebar-link {
+  color:#82888a;
+  text-decoration: none;
+  &:hover {
+    color: #cacccd;
+    text-decoration: none;
+  }
+  .active.sidebar-link {
+    color: #565a5c;
+    font-weight:bold;
+    text-decoration: none;
+  }
 }
