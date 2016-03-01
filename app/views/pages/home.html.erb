@@ -1,7 +1,9 @@
 <h1>Welcome!</h1>
-  <h3>
+  <h4>
     Having a hard time finding a quick easy solution for renting a flat, on a short hold basis?
-  </h3>
+  </h4>
     <p>Then let's get started!
-      please <%= link_to 'Log in', new_user_session_path %> or <%= link_to "Sign up", new_user_registration_path %> for a free account today
+      <!-- please <%= link_to 'Log in', new_user_session_path %> or <%= link_to "Sign up", new_user_registration_path %> for a free account today -->
     </p>
+
+    <p>Please look at <%= link_to "available", rooms_path %> rooms, or if you are a host <%= link_to "create", new_room_path %> a room.</p>
