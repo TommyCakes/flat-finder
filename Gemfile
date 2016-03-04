@@ -15,7 +15,7 @@ gem 'font-awesome-sass'
 gem 'devise'
 gem 'omniauth-google-oauth2'
 
-gem 'paperclip'
+gem "paperclip", "~> 3.3.1"
 
 gem 'toastr-rails'
 group :development, :test do
