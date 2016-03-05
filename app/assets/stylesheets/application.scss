@@ -149,7 +149,7 @@ input[type="checkbox"]:checked:before {
   width: 1.25em;
   color: #ff5a5f;
 }
-// 
+//
 // .btn-file {
 //     position: relative;
 //     overflow: hidden;
@@ -171,6 +171,13 @@ input[type="checkbox"]:checked:before {
 //     display: block;
 // }
 
+  .amenities {
+    list-style: none;
+    li {
+  margin-bottom:10px;
+  list-style: none;
+  }
+}
 
 // nav-cons
 .nav-con {

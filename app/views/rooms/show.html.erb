@@ -60,5 +60,38 @@
 
       </div>
     </div>
+
+    <!-- About -->
+    <div class="row">
+      <div class="col-md-12">
+        <h2>About this property</h2>
+        <p><%= @room.summary %></p>
+      </div>
+    </div>
+
+    <!-- Amenities -->
+    <div class="row">
+      <div class="col-md-2">
+        <p>Amenities</p>
+      </div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="amenities">
+              <li class="<%='text-line-through'if @room.is_tv%>">TV</li>
+              <li class="<%='text-line-through'if @room.is_kitchen%>">Kitchen</li>
+              <li class="<%='text-line-through'if @room.is_wifi%>">Wifi</li>
+              </ul>
+          </div>
+            <ul class="amenities">
+            <div class="col-md-6">
+              <li class="<%='text-line-through'if @room.is_heating%>">Heating</li>
+              <li class="<%='text-line-through'if @room.is_aircon%>">Air Conditioning</li>
+            </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
