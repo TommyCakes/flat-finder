@@ -17,6 +17,8 @@ gem 'omniauth-google-oauth2'
 
 gem "paperclip", "~> 4.3"
 
+gem 'geocoder'
+
 gem 'toastr-rails'
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
