@@ -4,7 +4,7 @@ class CreateBookings < ActiveRecord::Migration
       t.references :user, index: true, foreign_key: true
       t.references :room, index: true, foreign_key: true
       t.datetime :start_date
-      t.date_time :end_date
+      t.datetime :end_date
       t.integer :price
       t.integer :total
 
