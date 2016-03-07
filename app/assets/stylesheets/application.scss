@@ -15,15 +15,20 @@ body {
 }
 // Logo
 #logo {
-  // font-size:
   margin-left:50%;
   font-size:2em;
   font-weight:400;
-  color:#f79b51;
+  color:#e84f90;
+  position: relative;;
+  float:left;
+  top:-40px;
+  text-decoration: none;
 }
+
 @media (max-width:770px) {
   #logo {
     // font-size:
+    top: 0px;
     margin-left:0%;
   }
 }
@@ -192,4 +197,9 @@ input[type="checkbox"]:checked:before {
   }
 }
 
+.panel-heading {
+  img {
+  width:100%;
+  }
+}
 //
