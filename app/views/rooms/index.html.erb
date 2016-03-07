@@ -12,7 +12,7 @@
         Listings
       </div>
       <div class="panel-body">
-        <%=  @rooms.each do |room| %>
+        <%  @rooms.each do |room| %>
           <div class="row">
             <div class="col-md-2">
               <%=  image_tag room.photos[0].image.url(:thumb) if room.photos.length > 0 %>
@@ -24,6 +24,7 @@
               <%= link_to "Update", edit_room_path(room), class: "btn pink" %>
             </div>
           </div>
+          <hr>
         <% end %>
 
       </div>
