@@ -13,6 +13,10 @@ body {
 .container {
   width:80%;
 }
+input:focus {
+    outline: none;
+    border:none;
+}
 // Logo
 #logo {
   margin-left:50%;
@@ -32,6 +36,25 @@ body {
     margin-left:0%;
   }
 }
+
+#img-logo {
+  position: relative;;
+  float:left;
+  top:-75px;
+  img {
+    width:200px;
+  }
+}
+
+
+@media (max-width:770px) {
+  #img-logo {
+    // font-size:
+    top: -25px;
+    margin-left:0%;
+  }
+}
+
 
 .navbar-default {
   background: white;
