@@ -1,5 +1,6 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
-@import "bootstrap-sprockets";
+
+ @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "toastr";
 @import "font-awesome-sprockets";
@@ -226,3 +227,8 @@ input[type="checkbox"]:checked:before {
   }
 }
 //
+.booking-table td {
+  width: 100%;
+  border: 1px solid #dce0e0;
+  padding: 10px;
+}

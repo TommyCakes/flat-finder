@@ -19,6 +19,8 @@ gem "paperclip", "~> 4.3"
 
 gem 'geocoder'
 
+gem 'jquery-ui-rails'
+
 gem 'toastr-rails'
 group :development, :test do
   gem 'sqlite3',     '1.3.9'

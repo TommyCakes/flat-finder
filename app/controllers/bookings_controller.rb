@@ -1,10 +1,10 @@
-class BookingController < ApplicationController
+class BookingsController < ApplicationController
   before_action :authenticate_user!
-  
-  def create
-    @booking = current_user.booking.create(booking_params)
 
-    redirect_to @booking.room
+  def create
+    @booking = current_user.bookings.create(booking_params)
+
+    redirect_to @booking.room, notice: "You booking has been created"
   end
 
   private
