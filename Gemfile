@@ -19,7 +19,7 @@ gem "paperclip", "~> 4.3"
 
 gem 'geocoder'
 
-gem 'jquery-ui-rails'
+gem 'jquery-ui-rails', '5.0.3'
 
 gem 'toastr-rails'
 group :development, :test do
